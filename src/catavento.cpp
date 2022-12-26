@@ -14,10 +14,10 @@ a tecla espaço
 */
 
 
-float south[3] = {1.0, 1.0, 1.0}; //começa branco 
-float east[3] = {0.0, 0.0, 1.0}; //começa azul
-float north[3] = {0.0, 1.0, 0.0}; //começa verde
-float west[3] = {1.0, 0.0, 0.0}; //começa vermelho
+GLfloat south[3] = {1.0, 1.0, 1.0}; //começa branco 
+GLfloat east[3] = {0.0, 0.0, 1.0}; //começa azul
+GLfloat north[3] = {0.0, 1.0, 0.0}; //começa verde
+GLfloat west[3] = {1.0, 0.0, 0.0}; //começa vermelho
 
 void init (void){
   /* selecionar cor de fundo (preto) */
